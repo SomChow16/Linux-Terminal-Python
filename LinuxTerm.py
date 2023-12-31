@@ -3,7 +3,32 @@ print("* Commands that will only run - ls, cd, mv, history, exit")
 print("* Other commands are still in development or may not be available, just be satisfied")
 
 file_syst = {
-    'c': [
+        'User': {
+            'Downloads': {
+                "Files": [
+                    "asd.mp3",
+                    "qwert.jpeg",
+                    "winar.exe"
+                ],
+                "Music": [
+                    "song1.mp3",
+                    "song2.mp3"
+                ]
+            },
+            'Desktop': [
+                'Microsoft Edge.lnk',
+                'Microsoft Office Excel 2007.lnk',
+                'Microsoft Office Word 2007.lnk'
+            ],
+            'Documents': [
+                "fghj.pdf",
+                'asdsd.docx'
+            ],
+            'Favorites': [
+                "Links",
+                "desktop.ini"
+            ]
+        'c': [
         'Recycle.Bin',
         'ProgramData',
         'hiberfil.sys',
@@ -15,32 +40,7 @@ file_syst = {
         'Intel',
         'Program Files (x86)',
         'Windows'
-    ],
-    'User': {
-        'Downloads': {
-            "Files": [
-                "asd.mp3",
-                "qwert.jpeg",
-                "winar.exe"
-            ],
-            "Music": [
-                "song1.mp3",
-                "song2.mp3"
-            ]
-        },
-        'Desktop': [
-            'Microsoft Edge.lnk',
-            'Microsoft Office Excel 2007.lnk',
-            'Microsoft Office Word 2007.lnk'
-        ],
-        'Documents': [
-            "fghj.pdf",
-            'asdsd.docx'
-        ],
-        'Favorites': [
-            "Links",
-            "desktop.ini"
-        ]
+    ]
     }
 }
 
